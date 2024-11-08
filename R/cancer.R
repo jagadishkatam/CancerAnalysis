@@ -55,5 +55,5 @@ final <- tbl_ard_summary(
   set_caption('Summary of Cancer\n \n \n ', fp_par(padding = 20, line_spacing
   = 2) )
   
-flextable::save_as_docx(final, path = 'sample.docx')
+flextable::save_as_docx(final, path = './data/sample.docx')
 
